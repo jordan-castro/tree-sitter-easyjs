@@ -1,0 +1,10 @@
+struct Person {
+    name=null
+    age=null
+
+    fn new(name, age) {
+        self.name = name
+        self.age = age
+    }
+}
+

@@ -1,0 +1,36 @@
+{
+  "grammars": [
+    {
+      "name": "easyjs",
+      "camelcase": "EasyJS",
+      "scope": "source.easyjs",
+      "file-types": [
+        ".easyjs",
+        ".ej"
+      ],
+      "injection-regex": "^easyjs$"
+    }
+  ],
+  "metadata": {
+    "version": "0.2.0",
+    "license": "MIT",
+    "description": "The parser for a simple, easy to read/write programming language built to replace JavaScript.",
+    "authors": [
+      {
+        "name": "Jordan Castro",
+        "email": "jordan@grupojvm.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/jordan-castro/easyjs"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
